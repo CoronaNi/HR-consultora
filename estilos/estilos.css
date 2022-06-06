@@ -117,6 +117,10 @@ p{
     width: 50px;
 }
 
+.letraContacto{
+    font-family: 'Poppins', sans-serif;
+}
+
 /* body experiencias */
 .bodyExperiencias{
     display: grid;
