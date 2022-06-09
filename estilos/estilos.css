@@ -46,6 +46,11 @@ grid-area: header;
     font-size: 17px;
 }
 
+.footerIndex{
+    grid-area: footer;
+    color: rgb(15, 15, 15);
+    font-family: 'Bitter', serif;
+}
   
 #hrFuente{
     font-family: 'Roboto Slab', serif;
@@ -53,6 +58,8 @@ grid-area: header;
     padding: 80px;
     align-self: center;
 }
+
+
 
 .sectionIndex{
     font-family: 'Bitter', serif;
@@ -81,8 +88,7 @@ grid-area: header;
 #footer{
     grid-area: footer;
     color: rgb(8, 8, 8);
-    font-size: small;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Bitter', serif;
 }
 
 /* párrafos */
