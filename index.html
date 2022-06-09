@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./estilos/estilos.css">
     <title>Recursos website</title>
 </head>
-
 <body class="bodyIndex">
 
     <header id="header">
@@ -16,15 +16,22 @@
             <img class="imagenPrincipal" src="./img/lo.png" alt="miLogo" id="imagenPrincipal"> 
         </figure>
 
-        <nav class="navegacion">
-            <ul id="botonera">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="./secciones/servicios.html">Servicios</a></li>
-                <li><a href="./secciones/experiencias.html">Experiencias</a></li>
-                <li><a href="./secciones/historia.html">Historia</a></li>
-                <li><a href="./secciones/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html"> Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="./secciones/experiencias.html">Experiencias</a>
+                  <a class="nav-link active" href="./secciones/historia.html">Historia</a>
+                  <a class="nav-link active" href="./secciones/servicios.html">Servicios</a>
+                  <a class="nav-link active" href="./secciones/contacto.html ">Contacto</a> 
+                </div>
+              </div>
+            </div>
+          </nav>
 
         
         <h1 id="hrFuente"> HR Consultora</h1>
@@ -35,7 +42,7 @@
     <main id="main">
 
         <section class="sectionIndex">
-            <h1 id="titulosFuente">"Somos la ayuda a tu desafío."</h1>
+            <h1 id="titulosFuente">"El futuro es nuestro."</h1>
             <p>
 La gestión de recursos humanos podría convertirse en un motor para el crecimiento de tu empresa porque contribuye al logro de los objetivos, permite encontrar a los empleados más adecuados para cada puesto y asegura que todos tengan la formación suficiente para desempeñar las tareas que le son encomendadas y sean eficientes.
 Una forma de lograrlo es yendo más allá de la administración de personas y desarrollando iniciativas que logren que las personas se sientan y actúen como sociales de la organización, participen de forma activa en todos los procesos y sean los protagonistas del cambio y las mejoras.
@@ -52,11 +59,12 @@ Es importante recordar que cuando hablamos de talento en las empresas buscamos e
 
     </main>
 
-    <footer id="footer">
+    <footer id="footerIndex">
         <h2>"La mejor manera de obtener más talentos es mejorar los talentos que tenemos." Edward Bickersteth <h2>
     </footer>
-
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
