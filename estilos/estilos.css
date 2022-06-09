@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter&family=Karla:wght@300&family=Oswald:wght@200;400&family=Oxygen&family=Poppins:wght@200;300&family=Roboto+Slab:wght@100&display=swap');
 
-
 *{
     margin: 0;
     padding: 0;
@@ -33,42 +32,31 @@ grid-area: header;
     display: flex;
 }
 
-#botonera{
+#botoneraGeneral{
     border-color: #1c3018;
     padding: 0.3em;
     width: 80%;
-    height: 15vh;
-    display: flex; 
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    list-style-type: none; 
     font-family: 'Poppins', sans-serif;
-}
+}   
 
 
-  header ul li a{
-    text-decoration: none;
-    border: solid;
-    border-color: #eeebeb;
-    border-radius: 10px;
-    background-color: #f88e8e;
-    color: rgb(0, 0, 0);
-    padding: 0.45em;
+#botoneraGeneral:hover{
+    transform: scale(1);
+    transition-duration: 2s;
+    font-size: 17px;
 }
+
   
 #hrFuente{
     font-family: 'Roboto Slab', serif;
-    font-size: 25px;
-    border: 1px solid black;
-    padding: 40px;
+    font-size: 30px;;
+    padding: 80px;
     align-self: center;
 }
 
 .sectionIndex{
     font-family: 'Bitter', serif;
     color: black;
-    background-color: #ffffff;
 }
 
 /* Títulos */
