@@ -13,7 +13,7 @@
     }
 
 .barraNavegacion{
-    background-color: #f08a8a;
+    background-color: #fafafa;
 }
 
 
@@ -66,16 +66,21 @@ grid-area: header;
 /* Footer */
 #footer{
     grid-area: footer;
-    color: rgb(8, 8, 8);
-    font-size: small;
+    color: rgb(14, 13, 13);
+    font-size: larger;
     font-family: 'Roboto Slab', serif;
 }
 
+#tituloIndex{
+    border: solid 2px;
+    font-size: 50px;
+}
+
 #titulosFuentes{
-    border: solid 1px;
+    border: solid 0,5px;
     font-size: 25px;
     font-family: 'Oswald', sans-serif;
-    background-color: #f7c7c7;
+    background-color: #f8f3f3;
     }
 
 /* párrafos */
@@ -87,7 +92,7 @@ p{
     margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-    border: 5px solid rgb(32, 32, 32);  
+    border: 1px solid rgb(221, 248, 215);  
 }
 
 
@@ -101,7 +106,7 @@ p{
 /* body Index */
 .bodyIndex{
     width: 100%;
-    height: 100%;
+    height: 50%;
     display: grid;
     grid-template-rows: 1fr 2fr auto ;
     grid-template-columns: 1fr ;
