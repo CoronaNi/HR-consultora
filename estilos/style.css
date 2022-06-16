@@ -5,6 +5,17 @@
   padding: 0;
 }
 
+#botoneraGeneral {
+  padding: 0.3em;
+  width: 80%;
+  font-family: "Poppins", sans-serif;
+}
+#botoneraGeneral :hover {
+  transform: scale(1);
+  transition-duration: 2s;
+  font-size: 17px;
+}
+
 /* Index */
 /* Pongo la imagen acá porque está primero en HTML */
 #imagenPrincipal {
@@ -22,18 +33,6 @@
   background-color: rgb(255, 255, 255);
   flex-direction: column;
   display: flex;
-}
-
-#botoneraGeneral {
-  padding: 0.3em;
-  width: 80%;
-  font-family: "Poppins", sans-serif;
-}
-
-#botoneraGeneral:hover {
-  transform: scale(1);
-  transition-duration: 2s;
-  font-size: 17px;
 }
 
 #hrFuente {
@@ -90,12 +89,6 @@ p {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 1px solid rgb(221, 248, 215);
-}
-
-/* contacto Logo */
-.contactoLogo {
-  height: 50px;
-  width: 50px;
 }
 
 /* body Index */

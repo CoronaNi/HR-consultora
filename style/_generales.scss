@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#botoneraGeneral{
+    padding: 0.3em;
+    width: 80%;
+    font-family: 'Poppins', sans-serif; 
+        :hover{
+        transform: scale(1);
+        transition-duration: 2s;
+        font-size: 17px;
+        }
+}   
