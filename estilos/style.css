@@ -1,0 +1,160 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Bitter&family=Karla:wght@300&family=Oswald:wght@200;400&family=Oxygen&family=Poppins:wght@200;300&family=Roboto+Slab:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Index */
+/* Pongo la imagen acá porque está primero en HTML */
+#imagenPrincipal {
+  height: 160px;
+  width: 160px;
+}
+
+.barraNavegacion {
+  background-color: #f3afaf;
+}
+
+#header {
+  grid-area: header;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+  display: flex;
+}
+
+#botoneraGeneral {
+  padding: 0.3em;
+  width: 80%;
+  font-family: "Poppins", sans-serif;
+}
+
+#botoneraGeneral:hover {
+  transform: scale(1);
+  transition-duration: 2s;
+  font-size: 17px;
+}
+
+#hrFuente {
+  font-family: "Karla", sans-serif;
+  font-size: 40px;
+  padding: 80px;
+  align-self: center;
+  color: #1d251c;
+}
+
+.sectionIndex {
+  font-family: "Bitter", serif;
+  color: black;
+  font-size: large;
+}
+
+/* Main */
+#main {
+  grid-area: main;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+/* Footer */
+#footer {
+  grid-area: footer;
+  color: rgb(8, 8, 8);
+  font-size: small;
+  font-family: "Roboto Slab", serif;
+}
+
+#titulosFuentes {
+  border: solid 1px;
+  font-size: 25px;
+  font-family: "Oswald", sans-serif;
+  background-color: #f7c7c7;
+}
+
+/* párrafos */
+p {
+  font-family: "Bitter", serif;
+  color: black;
+  padding: 40px;
+  margin-right: 40px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 5px solid rgb(32, 32, 32);
+}
+
+/* contacto Logo */
+.contactoLogo {
+  height: 50px;
+  width: 50px;
+}
+
+/* body Index */
+.bodyIndex {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr 2fr auto;
+  grid-template-columns: 1fr;
+  grid-template-areas: "header header header" "main   main   main" "footer footer footer";
+}
+
+/* body experiencias */
+.bodyExperiencias {
+  display: grid;
+  grid-template-rows: 1fr auto 1fr;
+  grid-template-columns: 1fr;
+  grid-template-areas: "header header header" "main    main   main" "footer  footer footer";
+}
+
+@media screen and (max-width: 1375px) {
+  .bodyIndex {
+    height: 100px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "header header header" "main   main     main" "footer footer   footer";
+  }
+}
+@media screen and (max-width: 950px) {
+  .bodyIndex {
+    height: 100px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "header header header" "main   main   header" "footer footer footer";
+  }
+}
+@media screen and (max-width: 730px) {
+  .bodyIndex {
+    height: 100px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "header header header" "main   main     main" "footer footer   footer";
+  }
+}
+@media screen and (max-width: 500px) {
+  .bodyIndex {
+    height: 100px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "header header header" "main   main     main" "footer footer   footer";
+  }
+}
+/* transformación */
+.navegacion:hover {
+  transform: scale(1);
+}
+
+/* transición */
+.navegacion:hover {
+  transition-duration: 2s;
+  font-size: 21px;
+}
+
+#titulosFuentes:hover {
+  transition: all 2s;
+  transform: translate(50px);
+}/*# sourceMappingURL=style.css.map */
