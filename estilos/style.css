@@ -41,21 +41,15 @@
   font-size: 21px;
 }
 
-/* Index */
-/* Pongo la imagen acá porque está primero en HTML */
 #imagenPrincipal {
   height: 160px;
   width: 160px;
 }
 
-.barraNavegacion {
-  background-color: #fafafa;
-}
-
 #header {
   grid-area: header;
   width: 100%;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(244, 244, 244);
   flex-direction: column;
   display: flex;
 }

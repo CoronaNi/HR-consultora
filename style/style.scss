@@ -3,29 +3,20 @@
 
 
 
-/* Index */
-/* Pongo la imagen acá porque está primero en HTML */
 #imagenPrincipal{
     height: 160px; 
-    width: 160px;
-    }
-
-.barraNavegacion{
-    background-color: #fafafa;
+    width: 160px   
 }
-
 
 #header{
-grid-area: header;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    flex-direction: column;
-    display: flex;
-}
+    grid-area: header;
+        width: 100%;
+        background-color: rgb(244, 244, 244);
+        flex-direction: column;
+        display: flex;
+    }
 
 
-
-  
 #hrFuente{
     font-family: 'Karla', sans-serif;
     font-size: 40px;;
