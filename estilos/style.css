@@ -16,6 +16,31 @@
   font-size: 17px;
 }
 
+#titulosFuentes {
+  border: solid 0, 5px;
+  font-size: 25px;
+  font-family: "Oswald", sans-serif;
+  background-color: #f8f3f3;
+}
+#titulosFuentes #titulosFuentes:hover {
+  transition: all 2s;
+  transform: translate(50px);
+}
+
+.navegacion:hover {
+  transform: scale(1);
+}
+.navegacion:hover :hover {
+  transition-duration: 2s;
+  font-size: 21px;
+}
+
+/* transición */
+.navegacion:hover {
+  transition-duration: 2s;
+  font-size: 21px;
+}
+
 /* Index */
 /* Pongo la imagen acá porque está primero en HTML */
 #imagenPrincipal {
@@ -70,13 +95,6 @@
 #tituloIndex {
   border: solid 2px;
   font-size: 50px;
-}
-
-#titulosFuentes {
-  border: solid 0, 5px;
-  font-size: 25px;
-  font-family: "Oswald", sans-serif;
-  background-color: #f8f3f3;
 }
 
 /* párrafos */
@@ -140,19 +158,4 @@ p {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "header header header" "main   main     main" "footer footer   footer";
   }
-}
-/* transformación */
-.navegacion:hover {
-  transform: scale(1);
-}
-
-/* transición */
-.navegacion:hover {
-  transition-duration: 2s;
-  font-size: 21px;
-}
-
-#titulosFuentes:hover {
-  transition: all 2s;
-  transform: translate(50px);
 }/*# sourceMappingURL=style.css.map */
