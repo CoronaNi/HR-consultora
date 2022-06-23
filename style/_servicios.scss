@@ -1,0 +1,24 @@
+#titulosFuentes{
+    border: solid 0,5px;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    background-color: #f8f3f3;
+     #titulosFuentes:hover{
+        transition: all 2s;
+        transform: translate(50px);
+        }
+    }
+
+  .sectionServicios{
+    p{   
+        border: solid 0,5px;
+        font-size: 15px;
+        font-family: 'Oswald', sans-serif;
+    }
+    h2{
+        border: solid 0,5px;
+        font-size: 25px;
+        font-family: 'Oswald', sans-serif;
+        background-color: #b4f6a0;
+    }
+  }  

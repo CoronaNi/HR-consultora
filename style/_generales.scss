@@ -14,16 +14,7 @@
         }
 }   
 
-#titulosFuentes{
-    border: solid 0,5px;
-    font-size: 25px;
-    font-family: 'Oswald', sans-serif;
-    background-color: #f8f3f3;
-     #titulosFuentes:hover{
-        transition: all 2s;
-        transform: translate(50px);
-        }
-    }
+
 
     .navegacion:hover{
         transform: scale(1);
@@ -33,8 +24,3 @@
           }    
     }
     
-    /* transición */
-    .navegacion:hover{
-      transition-duration: 2s;
-      font-size: 21px;
-    }    

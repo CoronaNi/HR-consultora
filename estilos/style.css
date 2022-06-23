@@ -16,6 +16,14 @@
   font-size: 17px;
 }
 
+.navegacion:hover {
+  transform: scale(1);
+}
+.navegacion:hover :hover {
+  transition-duration: 2s;
+  font-size: 21px;
+}
+
 #titulosFuentes {
   border: solid 0, 5px;
   font-size: 25px;
@@ -27,18 +35,28 @@
   transform: translate(50px);
 }
 
-.navegacion:hover {
-  transform: scale(1);
+.sectionServicios p {
+  border: solid 0, 5px;
+  font-size: 15px;
+  font-family: "Oswald", sans-serif;
 }
-.navegacion:hover :hover {
-  transition-duration: 2s;
-  font-size: 21px;
+.sectionServicios h2 {
+  border: solid 0, 5px;
+  font-size: 25px;
+  font-family: "Oswald", sans-serif;
+  background-color: #b4f6a0;
 }
 
-/* transición */
-.navegacion:hover {
-  transition-duration: 2s;
-  font-size: 21px;
+.otrosServicios h2 {
+  border: solid 0, 5px;
+  font-size: 25px;
+  font-family: "Oswald", sans-serif;
+  background-color: #f8f3f3;
+}
+.otrosServicios p {
+  border: solid 0, 5px;
+  font-size: 15px;
+  font-family: "Oswald", sans-serif;
 }
 
 #imagenPrincipal {
