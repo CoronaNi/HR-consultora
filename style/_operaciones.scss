@@ -1,0 +1,20 @@
+
+.imagenPrincipal{
+    width: $ancho/2;
+    height: $alto/2;
+ }
+
+ .footIndex{
+    font-size: $font-size/4;
+}
+
+$animal:perro;
+
+#parrafoHistoria{
+    @if $animal == gato{
+        background-color: rgb(5, 12, 5);
+    }
+    @else if $animal == perro{
+        background-color: #aac8f5;
+    }
+}
