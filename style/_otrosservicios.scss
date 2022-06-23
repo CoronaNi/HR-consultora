@@ -1,13 +1,17 @@
+$color: rgb(216, 236, 216);
+$b:rgb(243, 238, 238);
+
 .otrosServicios{
     h2{    
         border: solid 0,5px;
         font-size: 25px;
         font-family: 'Oswald', sans-serif;
-        background-color: #f8f3f3;
+        background-color: $color;
     }
     p{
         border: solid 0,5px;
         font-size: 15px;
         font-family: 'Oswald', sans-serif;   
+        background-color: $b;
     }
 }

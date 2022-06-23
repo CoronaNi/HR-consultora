@@ -51,12 +51,13 @@
   border: solid 0, 5px;
   font-size: 25px;
   font-family: "Oswald", sans-serif;
-  background-color: #f8f3f3;
+  background-color: rgb(216, 236, 216);
 }
 .otrosServicios p {
   border: solid 0, 5px;
   font-size: 15px;
   font-family: "Oswald", sans-serif;
+  background-color: rgb(243, 238, 238);
 }
 
 #imagenPrincipal {
