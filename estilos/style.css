@@ -43,14 +43,14 @@
 .sectionServicios h2 {
   border: solid 0, 5px;
   font-size: 25px;
-  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: #8bdff4;
 }
 
 .otrosServicios h2 {
   border: solid 0, 5px;
   font-size: 25px;
-  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: rgb(149, 240, 245);
 }
 .otrosServicios p {
@@ -70,7 +70,7 @@
 }
 
 #parrafoHistoria {
-  background-color: #aac8f5;
+  background-color: #afe8ff;
 }
 
 #header {
@@ -81,16 +81,19 @@
   display: flex;
 }
 
-.footIndex {
-  font-size: 18.75px;
-}
-
 #hrFuente {
   font-family: "Karla", sans-serif;
   font-size: 37.5px;
   padding: 80px;
   align-self: center;
   color: #1d251c;
+}
+
+#titulosFuentes {
+  border: solid 0, 5px;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f3f3;
 }
 
 .sectionIndex {
@@ -118,8 +121,8 @@
 }
 
 #tituloIndex {
-  border: solid 2px;
-  font-size: 50px;
+  border: solid 1px;
+  font-size: 35px;
 }
 
 /* párrafos */

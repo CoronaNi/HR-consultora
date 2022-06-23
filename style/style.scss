@@ -14,9 +14,6 @@
         display: flex;
     }
 
-    .footIndex{
-        font-size: $font-size/4;
-    }
 
 #hrFuente{
     font-family: 'Karla', sans-serif;
@@ -26,6 +23,13 @@
     color: #1d251c;
 }
 
+#titulosFuentes {
+    border: solid 0, 5px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f3f3;
+  }
+  
 .sectionIndex{
     font-family: 'Bitter', serif;
     color: black;
@@ -51,8 +55,8 @@
 }
 
 #tituloIndex{
-    border: solid 2px;
-    font-size: 50px;
+    border: solid 1px;
+    font-size: 35px;
 }
 
 
